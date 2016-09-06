@@ -21,10 +21,11 @@ Mathematics can be inlined like $E = mc^2$. Or, they can be elegantly presented 
   e = \lim_{n\to\infty} \left( 1 + \frac{1}{n} \right)^n
 ~
 The above theorem can be referenced as Equation [#euler]. We may prove it as a theorem:
-~ Theorem {#th-euler; caption: "Euler's theorem";}
+~ Theorem {#th-euler; caption:"Euler's theorem"}
 If $n$ and $a$ are positive integers and $gcd(n,a) = 1$, then
-  
-  a^phi(n) == 1 mod n
+~
+~ Math
+  a^{\Phi(n)} \equiv 1 \mod n
 ~
 
 
@@ -57,3 +58,13 @@ And typing up Haskell is as easy:
 
 # Practice Save and Load
 Synchronize and Pull your ongoing work (from github) as you are editing it.
+
+# More Reading
+Putting figures and tables into documents is interesting because you can refer to them like headings.
+Also, being able to create complex matrices is a nice feature because you can't do that easily with other word processing software.
+
+# Hands-On
+I think the list functions are very interesting, and they are much more intuitive and easier to use than other list functions in other programming languages. Additionally, math is much easier to conduct in Haskell. I liked conducting math using pre-defined functions.
+
+# Submit
+I have generated `html` and `pdf` files to submit with my `mdk` file through `Canvas`.
